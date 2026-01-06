@@ -1,4 +1,4 @@
-name: DIGITClusterworkflow
+name: DIGITClusterworkflow   
 # Workflow branch
 on:
   push:
