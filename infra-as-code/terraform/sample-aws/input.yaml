@@ -1,14 +1,13 @@
 # Replace with the name which you want to give to your EKS cluster
 # Cluster name can have only lowercase alphanumeric characters and hyphens
 # For example: "digit-demo"
-cluster_name: "testhealth-k8supgrade-demo-v1.7"
+cluster_name: "testhealth-k8supgrade-demo-hcm-v1.7"
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
 db_name: "testhealthdb"
 
-public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCq9CHtThDqO1Og5mvqdRiNl2kvEZSLmpO5/d1jckcPVzUfn8zKSHAQMV42ZoOZxvYB9SKEBPp53skFFBK8ZgdsqejBxFAhWHp1oaMQNGan5ycQ7wIYP6KCjYEpIYLVqyTYI8UtJOpKp94OzgVlKvtO2qap2lKhIYkgXvfODYRFZ36S9AGpdeXHiLfpSMnXbOKGn01WinSwnkCvlk7N1FPuPQGOh7LV6fwgukoquX+UKbdJ4p2VSYvsHYiq+yuHKXfsodLyUHFoCoFgAy5JcyOTm7/LzvMhAbkpB/BJ4Ba06Y8cBmynKp3xZ2GfehEUfPLgJnFNIhLBd950TGD4lTBD" 
-
+public_ssh_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJPs5dEtsjA0zmxP7LxHnrE1bQdYM5nx9KgsHW8ebd+L"
 
 # Replace with DB username you want
 # DB user name must contain only alphanumeric characters
